@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">register</string>
+    <string name="email_hint">Email</string>
+    <string name="pass_hint">Pass</string>
+    <string name="register_btn">Register</string>
+    <string name="login_btn">Login</string>
+    <string name="descriptionImageLogin">Example</string>
+    <string name="descriptionImageHome">Description de ejemplo para imagen de home</string>
+    <string name="welcome">Welcome</string>
+    <string name="logout_btn">Logout</string>
 </resources>
