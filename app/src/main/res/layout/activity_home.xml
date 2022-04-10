@@ -22,7 +22,7 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="120dp"
-            android:contentDescription="TODO"
+            android:contentDescription="@string/descriptionImageHome"
             tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
         <LinearLayout
@@ -34,21 +34,30 @@
                 android:id="@+id/labelWelcome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Wellcome" />
+                android:textColor="@color/black"
+                android:text="@string/welcome" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
                 <Button
                     android:id="@+id/btnRegisterVisit"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0"
                     android:backgroundTint="@color/primary_color"
-                    android:text="Register"
+                    android:text="@string/register_btn"
                     android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/btnLogOut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/second_color"
+                    android:text="@string/logout_btn" />
 
             </LinearLayout>
         </LinearLayout>
