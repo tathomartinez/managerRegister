@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1009944858849",
+    "firebase_url": "https://manager-register-e9879-default-rtdb.firebaseio.com",
+    "project_id": "manager-register-e9879",
+    "storage_bucket": "manager-register-e9879.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009944858849:android:c998000e0b4b308aee67a0",
+        "android_client_info": {
+          "package_name": "com.cownrice.register"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009944858849-11l7hu8jj6ru2jpleoni17137rgo79u2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf9CCEqB97HLS0lSWLp7gihRCtwHGmERQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009944858849-11l7hu8jj6ru2jpleoni17137rgo79u2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
