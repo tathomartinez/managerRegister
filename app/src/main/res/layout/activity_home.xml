@@ -42,22 +42,27 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
+                <EditText
+                    android:id="@+id/txtCodeCompany"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp" />
+
                 <Button
                     android:id="@+id/btnRegisterVisit"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="0"
-                    android:backgroundTint="@color/primary_color"
-                    android:text="@string/register_btn"
-                    android:textColor="@color/black" />
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_btn" />
 
                 <Button
                     android:id="@+id/btnLogOut"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/black"
                     android:backgroundTint="@color/second_color"
-                    android:text="@string/logout_btn" />
+                    android:text="@string/logout_btn"
+                    android:textColor="#000000" />
 
             </LinearLayout>
         </LinearLayout>
